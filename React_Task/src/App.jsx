@@ -105,7 +105,7 @@ function App() {
       {tenzies && <Confetti />}
       {!start && <h1 className="title">Tenzies</h1>}
       {!start && <p className="instructions">Roll until all dice are the same. 
-            Click each die to freeze it at its current value between rolls.</p>}
+           </p>}
       {start && <div className='start-menu'>
         <h1 className='timer'>Time {String(hours).padStart(2, '0')}:{String(minutes).padStart(2, '0')}:{String(seconds).padStart(2, '0')}</h1>
         <h1 className='count-roll'>Count: {roll}</h1>
